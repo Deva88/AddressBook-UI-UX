@@ -1,6 +1,7 @@
 class Contact {
 
     /*Validating fields by creating contact class validating first name */
+
     get fullName() {return this._fullName;}
     set fullName(fullName) {
         let fullNamePattern = RegExp('^[A-Z]{1}[a-zA-Z\\s]{2,}$');
@@ -10,6 +11,7 @@ class Contact {
         else
             throw 'Invalid Name';
     }
+
 
     /* Validating phone number consists of either 10 or 12 or 13 numbers */
 
@@ -45,6 +47,8 @@ class Contact {
     get zip() {return this._zip;}
     set zip(zip) {this._zip = zip;}
 
+    get id() {return this._id;}
+    set id(id) {this._id = id;}
     
 
     //Methods
