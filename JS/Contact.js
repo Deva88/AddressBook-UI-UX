@@ -1,7 +1,6 @@
 class Contact {
-    /*Using getters and setters 
-    *Validating fields by creating contact class validating Full name 
-    */
+
+    /**validating Full name */
     get fullName() {return this._fullName;}
     set fullName(fullName) {
         let fullNamePattern = RegExp('^[A-Z]{1}[a-zA-Z\\s]{2,}$');
@@ -16,7 +15,7 @@ class Contact {
     }
 
 
-   /* Validating phone number*/
+    /* Validating phone number */
 
     get tel() {return this._tel;}
     set tel(tel) {
@@ -32,7 +31,7 @@ class Contact {
     }
 
 
-    /* Validating address */
+    /**Validating address */
 
     get address() { return this._address; }
     set address(address) {
