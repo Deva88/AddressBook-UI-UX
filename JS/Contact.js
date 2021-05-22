@@ -1,6 +1,6 @@
 class Contact {
 
-    /*Validating fields by creating contact class validating first name */
+    /*Validating fields by creating contact class validating Full name */
     get fullName() {return this._fullName;}
     set fullName(fullName) {
         let fullNamePattern = RegExp('^[A-Z]{1}[a-zA-Z\\s]{2,}$');
