@@ -1,6 +1,6 @@
 class Contact {
 
-    /*Validating fields by creating contact class validating first name */
+    /*Validating fields by creating contact class validating full name */
 
     get fullName() {return this._fullName;}
     set fullName(fullName) {
@@ -13,7 +13,7 @@ class Contact {
     }
 
 
-    /* Validating phone number consists of either 10 or 12 or 13 numbers */
+    /* Validating phone number */
 
     get tel() {return this._tel;}
     set tel(tel) {
